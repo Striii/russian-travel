@@ -1,0 +1,12 @@
+  .content__inner {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 47% 49%;
+    gap: 48px 40px;
+    justify-items: start;
+    align-items: end;
+  }
+  
+  .content__inner:last-child {
+    margin-bottom: 92px;
+  }
