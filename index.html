@@ -9,161 +9,139 @@
   <title>Rissian-travel</title>
 </head>
 
-<body class="root">
-
+<body class="page">
   <header class="header">
-    <div class="wrap">
-      <a href="./index.html"><img src="./images/header-logo.svg" alt="logo" class="logo"></a>
-      <ul class="dropdown">
-        <li><a href="#" class="lang lang_link">RU</a></li>
-        <li><a href="#" class="lang">EN</a></li>
-      </ul>
+    <a href="#" class="header__logo"></a>
+    <div class="header__wrap">
+      <a href="#" class="header__lang header__lang_link">ru</a>
+      <a href="#" class="header__lang">en</a>
     </div>
   </header>
-  <div class="container">
-    <section class="lead indent">
-      <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-      <p class="lead__quote">Настоящая страна не в выпусках <br>новостей, а здесь.</p>
-      <img src="./images/lead-polka.jpg" alt="маршрут" class="lead__img">
-      <p class="lead__sign indent">ваша полка — верхняя</p>
-    </section>
-    <section class="intro indent">
-      <h2 class="intro__title">Чего мы там не видели?</h2>
-      <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми
-        льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала
-        20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-      <ul class="intro__item">
+  <section class="info">
+    <h1 class="info__title">Путешествия по&nbsp;России</h1>
+    <p class="info__descr">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
+    <img src="./images/lead-polka.jpg" alt="снова поезд" class="info__img">
+    <p class="info__sign">ваша полка — верхняя</p>
+    <div class="info__wrap">
+      <h2 class="info__subtitle">Чего мы там не&nbsp;видели?</h2>
+      <p class="info__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым
+        морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая
+        мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
+      <ul class="info__item">
+        <li class="info__list">Часовых поясов <span class="info__span">11</span></li>
+        <li class="info__list">Объектов природного наследия ЮНЕСКО <span class="info__span">12</span></li>
+        <li class="info__list">Объектов культурного наследия ЮНЕСКО <span class="info__span">16</span></li>
+        <li class="info__list">Природных заповедников <span class="info__span">105</span></li>
+        <li class="info__list">Аэропортов <span class="info__span">241</span></li>
+      </ul>
+    </div>
+  </section>
+  <ul class="photo">
+    <li class="photo__list"><img src="./images/grid/photo-grid-train.jpg" alt="окно поезда" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-atharva-tulsi.jpg" alt="горы" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-tuman.jpg" alt="пес" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-sochi.jpg" alt="лес в сочи" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-arisa.jpg" alt="толстый лед" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-baikal.jpg" alt="пляж байкала" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-elbrus.jpg" alt="эльбрус" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-kondratiev.jpg" alt="дамба" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-kamchatka-1.jpg" alt="гейзеры камчатки" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-kamchatka-2.jpg" alt="гора камчатки" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-baikal-2.jpg" alt="берег байкала" class="photo__img"></li>
+    <li class="photo__list"><img src="./images/grid/photo-grid-ergaki.jpg" alt="гора в тумане" class="photo__img"></li>
+  </ul>
+
+  <section class="content">
+    <ul class="content__item">
+      <li class="content__list">
+        <h2 class="content__title">Куршская коса</h2>
+        <a href="http://park-kosa.ru" class="content__link active">park-kosa.ru</a>
+        <img src="./images/place/place-kosa.jpg" alt="коса" class="content__img">
+        <div>
+          <p class="content__text">Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете увидеть два водных горизонта&nbsp;&mdash; спокойного Куршского залива с&nbsp;одной стороны и&nbsp;подёрнутого рябью волн Балтийского моря с&nbsp;другой. Уникальная природная зона на&nbsp;краю
+            российского анклава.
+          </p>
+          <p class="content__text">На&nbsp;этом Калининградская область не&nbsp;заканчивается. Для путешественника и&nbsp;исследователя там&nbsp;же по&nbsp;соседству&nbsp;&mdash; самая западная точка России, Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи небольших
+            приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и&nbsp;запах стального, прохладного моря.
+          </p>
+        </div>
+      </li>
+      <li class="content__list">
+        <h2 class="content__title">Кольский</h2>
+        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="content__link active">National Geographic</a>
+        <img src="./images/place/place-kolsky.jpg" alt="кольский полуостров" class="content__img">
+        <div>
+          <p class="content__text">Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская тундра, от&nbsp;которой на&nbsp;юг&nbsp;&mdash; тайга, а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан, прикидывающийся Баренцевым морем.
+          </p>
+          <p class="content__text">Возможно, вы&nbsp;смотрели Звягинцева и&nbsp;даже слышали историю арктического фестиваля в&nbsp;Териберке. Возможно, слово &laquo;Хибины&raquo; не&nbsp;осталось под снегом школьных воспоминаний об&nbsp;уроках географии. Возможно, вы&nbsp;не&nbsp;интересовались
+            пронизывающей земную кору сверхглубокой скважиной, а&nbsp;от&nbsp;апатитов вас давно накрывает апатия. Но&nbsp;ваша мечта увидеть северное сияние начинает сбываться с&nbsp;билетом в&nbsp;Мурманск.
+          </p>
+        </div>
+      </li>
+      <li class="content__list">
+        <h2 class="content__title">Алтай</h2>
+        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="content__link active">Facebook</a>
+        <img src="./images/place/place-altai.jpg" alt="алтай" class="content__img">
+        <div>
+          <p class="content__text">Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России. В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы&nbsp;увидите склоны, усыпанные соснами, горные реки и&nbsp;озёра. А&nbsp;если вы&nbsp;откроете в&nbsp;автомобиле окна,
+            сможете познакомиться с&nbsp;невидимым чудом здешних мест&nbsp;&mdash; горным воздухом.</p>
+          <p class="content__text">Климат на&nbsp;Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы&nbsp;увидите всё разнообразие местной флоры и&nbsp;фауны. По&nbsp;лесам Алтая бродят лоси, над хребтами летают орлы, а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые
+            манулы&nbsp;&mdash; тоже обитатели Алтайского края.</p>
+        </div>
+      </li>
+      <li class="content__list">
+        <h2 class="content__title">Зимний Байкал</h2>
+        <a href="https://vk.com/baikalmile" class="content__link active">https://vk.com/baikalmile</a>
+        <img src="./images/place/place-winter-baikal.jpg" alt="байкал" class="content__img">
+        <div>
+          <p class="content__text">Всем известен Байкал как крупнейшее озеро в&nbsp;мире. Многие также знают, что это самый большой источник пресной воды и&nbsp;одно из&nbsp;красивейших мест в&nbsp;России.</p>
+          <p class="content__text">Конечно, это всё так. Но&nbsp;Байкал ещё идеальное место для соревнований по&nbsp;скийорингу. Это такой вид спорта, когда лыжник привязывает себя к&nbsp;мотоциклу, и&nbsp;тандем старается развить как можно б&oacute;льшую скорость на&nbsp;льду.
+            В&nbsp;марте 2019 года на&nbsp;фестивале &laquo;Байкальская миля&raquo; был поставлен мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.</p>
+        </div>
+      </li>
+      <li class="content__list">
+        <h2 class="content__title">Карелия</h2>
+        <a href="http://vodlozero.ru" class="content__link active">http://vodlozero.ru/</a>
+        <img src="./images/place/place-karelia.jpg" alt="карелия" class="content__img">
+        <div>
+          <p class="content__text">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая тайгу сибирская лиственница не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает на&nbsp;30&nbsp;метров&nbsp;&mdash; леса карельских национальных парков из-за
+            непроходимых болот никогда не&nbsp;знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к&nbsp;живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В&nbsp;девственном лесу на&nbsp;сотню километров не&nbsp;встретишь
+            тропы. А&nbsp;на&nbsp;редких тропинках деревья в&nbsp;паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+          <p class="content__text"></p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="cover">
+    <div class="cover__wrap">
+      <h2 class="cover__title">До&nbsp;Байкала «на&nbsp;собаках»</h2>
+      <p class="cover__text">По&nbsp;мотивам&nbsp;учебной&nbsp;темы&nbsp;о&nbsp;Транссибе —&nbsp;путешествие&nbsp;от&nbsp;столицы&nbsp;до&nbsp;Байкала на&nbsp;электричках.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <nav class="menu">
+      <ul class="menu__link">
         <li>
-          Часовых поясов <span class="intro__span">11</span>
+          <a href="https://yandex.ru/maps" class="menu__links active">Карты</a>
         </li>
         <li>
-          Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span>
+          <a href="https://yandex.ru/pogoda" class="menu__links active">Погода</a>
         </li>
         <li>
-          Объектов культурного наследия ЮНЕСКО <span span class="intro__span">16</span>
+          <a href="https://rasp.yandex.ru" class="menu__links active">Расписание</a>
         </li>
         <li>
-          Природных заповедников <span span class="intro__span">105</span>
+          <a href="https://calendar.yandex.ru" class="menu__links active">Календарь</a>
         </li>
         <li>
-          Аэропортов <span span class="intro__span">241</span>
+          <a href="https://travel.yandex.ru" class="menu__links active">Путешествия</a>
         </li>
       </ul>
-    </section>
-  </div>
-  <section class="photo indent">
-    <ul class="photo__wrap">
-      <li><img src="./images/grid/photo-grid-train.jpg" alt="вид из окна" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-atharva-tulsi.jpg" alt="горы" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-tuman.jpg" alt="волк" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-sochi.jpg" alt="лес в тумане" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-arisa.jpg" alt="лед" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-baikal.jpg" alt="Байкал" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-kondratiev.jpg" alt="заграждения" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-kamchatka-2.jpg" alt="вулкан Камчатки" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-baikal-2.jpg" alt="Байкал" class="photo__img"></li>
-      <li><img src="./images/grid/photo-grid-ergaki.jpg" alt="горы" class="photo__img"></li>
-    </ul>
-  </section>
-
-  <section class="content container ">
-    <ul class="content__wrap">
-      <li class="content__inner">
-        <h3 class="content__title">Куршская коса</h3>
-        <a href="http://park-kosa.ru" class="content__link">park-kosa.ru</a>
-        <img src="./images/place/place-kosa.jpg" alt="Куршская коса" class="content__img">
-        <p class="content__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава. <br><br> На этом
-          Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету,
-          окуная в спокойствие природы и запах стального, прохладного моря.</p>
-      </li>
-      <li class="content__inner">
-        <h3 class="content__title">Кольский</h3>
-        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="content__link">National Geographic</a>
-        <img src="./images/place/place-kolsky.jpg" alt="Кольский" class="content__img">
-        <p class="content__text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем. <br> <br>Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля
-          в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта
-          увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
-      </li>
-      <li class="content__inner">
-        <h3 class="content__title">Алтай</h3>
-        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="content__link">Facebook</a>
-        <img src="./images/place/place-altai.jpg" alt="Алтай" class="content__img">
-        <p class="content__text">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест
-          — горным воздухом. <br> <br> Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые
-          манулы — тоже обитатели Алтайского края.</p>
-      </li>
-      <li class="content__inner">
-        <h3 class="content__title">Зимний Байкал</h3>
-        <a href="https://vk.com/baikalmile" class="content__link">https://vk.com/baikalmile</a>
-        <img src="./images/place/place-winter-baikal.jpg" alt="Зимний Байкал" class="content__img">
-        <p class="content__text">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России. <br> <br> Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу.
-          Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
-      </li>
-      <li class="content__inner">
-        <h3 class="content__title">Карелия</h3>
-        <a href="http://vodlozero.ru" class="content__link">http://vodlozero.ru</a>
-        <img src="./images/place/place-karelia.jpg" alt="Карелия" class="content__img">
-        <p class="content__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора.
-          Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли
-          помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-      </li>
-    </ul>
-
-  </section>
-
+    </nav>
+    <p class="footer__author">&copy; 2022. Степаненко Александр</p>
+  </footer>
 
 </body>
 
 </html>
-
-
-<!-- <button class="button">b</button> -->
-<!-- <nav class="menu">
-  <ul class="menu__link">
-    <li>
-      <a href="#" class="menu__links">1</a>
-    </li>
-    <li>
-      <a href="#" class="menu__links">2</a>
-    </li>
-    <li>
-      <a href="#" class="menu__links">2</a>
-    </li>
-    <li>
-      <a href="#" class="menu__links">4</a>
-    </li>
-    <li>
-      <a href="#" class="menu__links">5</a>
-    </li>
-  </ul>
-</nav> -->
-<!-- <a href="#" class="logo">
-    <div class="shearch"></div>
- -->
-
-<!-- <div class="tags ">
-  <h2 class="title ">Tags</h2>
-  <ul class="tags__items ">
-    <li class="tags__item ">Business</li>
-    <li class="tags__item ">Freelance</li>
-  </ul>
-</div> -->
-
-<!-- <div class="contacts ">
-  <h2 class="side-bar__title ">Email newsletter</h2>
-  <ul class="contacts__forms ">Sign up to receive email updates and to hear what's going on.
-    <li><input type="text " class="contacts__info " placeholder="Your name "></li>
-    <li><input type="email " class="contacts__info " placeholder="Your email adress "></li>
-  </ul>
-  <button class="button button_place_side-bar button_place_contacts "> View instagram</button>
-</div> -->
-
-<!-- <ul class="icons">
-  <li><button class="icons__button"><i class="fa fa-facebook" aria-hidden="true"></i></button></li>
-  <li><button class="icons__button"><i class="fa fa-twitter" aria-hidden="true"></i></button></li>
-  <li><button class="icons__button"><i class="fa fa-pinterest" aria-hidden="true"></i></button></li>
-  <li><button class="icons__button"><i class="fa fa-google-plus-official" aria-hidden="true"></i></button></li>
-  <li><button class="icons__button"><i class="fa fa-instagram" aria-hidden="true"></i></button></li>
-</ul> -->

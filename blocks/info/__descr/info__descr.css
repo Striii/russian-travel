@@ -1,0 +1,23 @@
+.info__descr {
+  max-width: 640px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .info__descr {
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .info__descr {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

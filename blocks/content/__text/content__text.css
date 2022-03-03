@@ -1,8 +1,19 @@
 .content__text {
-  align-self: start;
-  margin: 0;
+  grid-area: text;
   font-size: 18px;
-  font-weight: 400;
   line-height: 29px;
   text-align: left;
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.content__text:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .content__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
