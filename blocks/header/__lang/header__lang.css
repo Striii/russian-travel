@@ -5,11 +5,13 @@
   font-weight: 400;
   color: #fff;
   text-decoration: none;
+  cursor: default;
 }
 
-@media screen and (max-width: 425px) {
+
+/* @media screen and (max-width: 425px) {
   .header__lang {
     font-size: 18px;
     line-height: 20px;
   }
-}
+} */

@@ -1,15 +1,21 @@
 .header {
+  padding-bottom: 55px;
+  width: 100%;
   margin: 0 auto;
-  padding: 28px 27px 56px 48px;
   display: flex;
   justify-content: space-between;
   color: #fff;
-  max-width: 1280px;
-  width: 100%;
-  box-sizing: border-box;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    width: calc(100% - 9.375%);
+    padding-bottom: 48px;
+  }
+}
+
+
+/* @media (min-width: 425px) and (max-width: 768px) {
   .header {
     padding: 28px 24px 48px 24px;
   }
@@ -19,4 +25,4 @@
   .header {
     padding: 16px 16px 48px 16px;
   }
-}
+} */

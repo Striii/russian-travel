@@ -5,9 +5,8 @@
     margin-bottom: 5px;
     gap: 18px;
   }
-  
-  @media screen and (max-width: 425px) {
+  /* @media screen and (max-width: 425px) {
     .header__wrap {
       align-items: center;
     }
-  }
+  } */

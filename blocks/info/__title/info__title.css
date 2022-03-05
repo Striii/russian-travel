@@ -1,16 +1,21 @@
 .info__title {
-  width: 100%;
   max-width: 720px;
-  max-height: 200px;
   font-size: 96px;
   font-weight: 900;
   line-height: 102px;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 50px;
+  padding-bottom: 45px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .info__title {
+    padding-bottom: 28px;
+  }
+}
+
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
   .info__title {
     margin-bottom: 32px;
   }
@@ -30,4 +35,4 @@
     font-size: 40px;
     line-height: 44px;
   }
-}
+} */

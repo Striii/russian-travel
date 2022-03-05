@@ -11,9 +11,10 @@
   margin-bottom: 0;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+
+/* @media (min-width: 425px) and (max-width: 768px) {
   .content__text {
     font-size: 16px;
     line-height: 26px;
   }
-}
+} */

@@ -1,12 +1,17 @@
 .content {
   margin: 0 auto;
-  max-width: 1280px;
-  width: 100%;
-  padding: 0 152px 0 148px;
-  box-sizing: border-box;
+  padding-bottom: 92px;
+  width: calc(100% - 100px - 100px);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .content {
+    width: calc(100% - 9.375%);
+  }
+}
+
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
   .content {
     padding: 0 48px 92px 48px;
   }
@@ -22,4 +27,4 @@
   .content {
     padding: 0 0 88px 0;
   }
-}
+} */
