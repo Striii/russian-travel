@@ -19,3 +19,12 @@
     padding-bottom: 28px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .info__title {
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 16px;
+    width: 288px;
+  }
+}

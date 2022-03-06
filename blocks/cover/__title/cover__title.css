@@ -7,11 +7,23 @@
   max-width: 560px;
 }
 
+@media (min-width: 551px) and (max-width: 767px) {
+  .cover__title {
+    font-size: 55px;
+    line-height: 59px;
+  }
+}
 
-/* @media screen and (max-width: 768px) {
+@media (min-width: 420px) and (max-width: 550px) {
+  .cover__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 419px) {
   .cover__title {
     font-size: 32px;
-    font-weight: 900;
     line-height: 35px;
   }
-} */
+}

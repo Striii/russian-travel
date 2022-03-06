@@ -27,3 +27,12 @@
     margin-bottom: 74px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .content__list {
+    gap: 32px;
+    grid-template-areas: "title" "url" "img" "text";
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+  }
+}

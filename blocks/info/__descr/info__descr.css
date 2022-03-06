@@ -1,5 +1,5 @@
 .info__descr {
-  max-width: calc(100% - 344px);
+  max-width: 640px;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
@@ -19,5 +19,14 @@
   .info__descr {
     max-width: calc(100% - 64px - 64px);
     margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .info__descr {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
   }
 }

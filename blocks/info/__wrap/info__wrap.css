@@ -7,3 +7,10 @@
     margin-left: 3.125%;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .info__wrap {
+    width: calc(100% - 10%);
+    margin: 0 auto;
+  }
+}
