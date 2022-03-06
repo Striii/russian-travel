@@ -14,25 +14,8 @@
   }
 }
 
-
-/* @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .info__title {
-    margin-bottom: 32px;
+    padding-bottom: 28px;
   }
 }
-
-@media (min-width: 425px) and (max-width: 768px) {
-  .info__title {
-    margin-bottom: 32px;
-    font-size: 55px;
-    line-height: 59px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .info__title {
-    margin-bottom: 16px;
-    font-size: 40px;
-    line-height: 44px;
-  }
-} */

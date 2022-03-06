@@ -9,7 +9,7 @@
   gap: 19px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu__link {
     flex-direction: column;
     justify-content: space-between;

@@ -10,21 +10,8 @@
   }
 }
 
-
-/* @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .info {
-    padding: 0 48px 92px 48px;
+    padding-bottom: 89px;
   }
 }
-
-@media (min-width: 425px) and (max-width: 768px) {
-  .info {
-    padding: 0 24px 88px 24px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .info {
-    padding: 0 0 88px 0;
-  }
-} */
