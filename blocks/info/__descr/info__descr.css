@@ -10,8 +10,8 @@
 
 @media (max-width: 1279px) {
   .info__descr {
-    margin-bottom: 56px;
     max-width: calc(100% - 192px - 192px);
+    margin-bottom: 56px;
   }
 }
 
@@ -31,9 +31,9 @@
 @media screen and (max-width: 767px) {
   .info__descr {
     max-width: 100%;
+    margin-bottom: 40px;
     width: 288px;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 40px;
   }
 }
