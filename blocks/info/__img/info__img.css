@@ -1,4 +1,11 @@
 .info__img {
+  margin: 0 auto;
   width: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 768px) {
+  .info {
+    margin-bottom: 8px;
+  }
 }

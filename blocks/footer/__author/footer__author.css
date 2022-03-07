@@ -4,7 +4,7 @@
   text-align: right;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footer__author {
     margin-top: 48px;
   }
